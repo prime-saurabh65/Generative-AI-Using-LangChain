@@ -13,6 +13,6 @@ docs = [
     "Paris is the capital of France"
 ]
 
-result = embedding.embed_documents("Delhi is the capital of India")
+result = embedding.embed_documents(docs)
 
 print(str(result))
