@@ -3,8 +3,8 @@ from dotenv import load_dotenv
 
 # this loads api key from .env file
 load_dotenv()
-
-model = ChatGoogleGenerativeAI(model='gemini-3.5-flash')
+model='gemini-3.5-flash'
+model = ChatGoogleGenerativeAI()
 
 result = model.invoke("What is the capital of India")
 
